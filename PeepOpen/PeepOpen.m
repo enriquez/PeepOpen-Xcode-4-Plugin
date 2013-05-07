@@ -49,11 +49,9 @@
 
 - (void)openWithPeepOpen
 {
-    NSString *open = @"/usr/bin/open";
-    NSArray *args = @[ @"-a", @"PeepOpen", self.projectRoot.path ];
-    
-    NSTask *task = [NSTask launchedTaskWithLaunchPath:open arguments:args];
-    [task waitUntilExit];
+    NSURL *peepOpenUrl = [[NSURL alloc] initWithScheme:@"peepopen" host:@"" path:self.projectRoot.path];
+    [[NSWorkspace sharedWorkspace] openURL:peepOpenUrl];
+    [peepOpenUrl release];
 }
 
 - (NSURL *)projectRoot
