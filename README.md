@@ -6,6 +6,11 @@ Xcode 4 plugin for [PeepOpen](https://peepcode.com/products/peepopen). Adds a me
 
 Nice explanation here: [PeepCode Blog](http://peepcode.com/blog/2010/file-navigation-in-text-editors).
 
+## Installation
+
+* Clone and build the project. It will be installed to `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins`
+* Restart Xcode
+
 ## MIT License
 Copyright (C) 2013 EdgeCase
 
