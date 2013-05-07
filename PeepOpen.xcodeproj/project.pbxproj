@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0566A1A4173766BE00B86780 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0566A1A3173766BE00B86780 /* AppKit.framework */; };
+		0566A1A6173766BE00B86780 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0566A1A5173766BE00B86780 /* Foundation.framework */; };
+		0566A1AC173766BE00B86780 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0566A1AA173766BE00B86780 /* InfoPlist.strings */; };
+		0566A1AF173766BE00B86780 /* PeepOpen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0566A1AE173766BE00B86780 /* PeepOpen.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0566A1A0173766BE00B86780 /* PeepOpen.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeepOpen.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		0566A1A3173766BE00B86780 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0566A1A5173766BE00B86780 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0566A1A9173766BE00B86780 /* PeepOpen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeepOpen-Info.plist"; sourceTree = "<group>"; };
+		0566A1AB173766BE00B86780 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0566A1AD173766BE00B86780 /* PeepOpen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeepOpen.h; sourceTree = "<group>"; };
+		0566A1AE173766BE00B86780 /* PeepOpen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeepOpen.m; sourceTree = "<group>"; };
+		0566A1B0173766BE00B86780 /* PeepOpen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeepOpen-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0566A19D173766BE00B86780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0566A1A4173766BE00B86780 /* AppKit.framework in Frameworks */,
+				0566A1A6173766BE00B86780 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0566A197173766BE00B86780 = {
+			isa = PBXGroup;
+			children = (
+				0566A1A7173766BE00B86780 /* PeepOpen */,
+				0566A1A2173766BE00B86780 /* Frameworks */,
+				0566A1A1173766BE00B86780 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0566A1A1173766BE00B86780 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0566A1A0173766BE00B86780 /* PeepOpen.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0566A1A2173766BE00B86780 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0566A1A3173766BE00B86780 /* AppKit.framework */,
+				0566A1A5173766BE00B86780 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0566A1A7173766BE00B86780 /* PeepOpen */ = {
+			isa = PBXGroup;
+			children = (
+				0566A1AD173766BE00B86780 /* PeepOpen.h */,
+				0566A1AE173766BE00B86780 /* PeepOpen.m */,
+				0566A1A8173766BE00B86780 /* Supporting Files */,
+			);
+			path = PeepOpen;
+			sourceTree = "<group>";
+		};
+		0566A1A8173766BE00B86780 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0566A1A9173766BE00B86780 /* PeepOpen-Info.plist */,
+				0566A1AA173766BE00B86780 /* InfoPlist.strings */,
+				0566A1B0173766BE00B86780 /* PeepOpen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0566A19F173766BE00B86780 /* PeepOpen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0566A1B3173766BE00B86780 /* Build configuration list for PBXNativeTarget "PeepOpen" */;
+			buildPhases = (
+				0566A19C173766BE00B86780 /* Sources */,
+				0566A19D173766BE00B86780 /* Frameworks */,
+				0566A19E173766BE00B86780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeepOpen;
+			productName = PeepOpen;
+			productReference = 0566A1A0173766BE00B86780 /* PeepOpen.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0566A198173766BE00B86780 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mike Enriquez";
+			};
+			buildConfigurationList = 0566A19B173766BE00B86780 /* Build configuration list for PBXProject "PeepOpen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0566A197173766BE00B86780;
+			productRefGroup = 0566A1A1173766BE00B86780 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0566A19F173766BE00B86780 /* PeepOpen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0566A19E173766BE00B86780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0566A1AC173766BE00B86780 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0566A19C173766BE00B86780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0566A1AF173766BE00B86780 /* PeepOpen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0566A1AA173766BE00B86780 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0566A1AB173766BE00B86780 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0566A1B1173766BE00B86780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0566A1B2173766BE00B86780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0566A1B4173766BE00B86780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeepOpen/PeepOpen-Prefix.pch";
+				INFOPLIST_FILE = "PeepOpen/PeepOpen-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		0566A1B5173766BE00B86780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeepOpen/PeepOpen-Prefix.pch";
+				INFOPLIST_FILE = "PeepOpen/PeepOpen-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0566A19B173766BE00B86780 /* Build configuration list for PBXProject "PeepOpen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0566A1B1173766BE00B86780 /* Debug */,
+				0566A1B2173766BE00B86780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0566A1B3173766BE00B86780 /* Build configuration list for PBXNativeTarget "PeepOpen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0566A1B4173766BE00B86780 /* Debug */,
+				0566A1B5173766BE00B86780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0566A198173766BE00B86780 /* Project object */;
+}
