@@ -4,7 +4,7 @@ Xcode 4 plugin for [PeepOpen](https://peepcode.com/products/peepopen). Adds a me
 
 ## Why not Open Quickly...?
 
-Nice explanation here: [PeepCode Blog](http://peepcode.com/blog/2010/file-navigation-in-text-editors).
+Nice explanation on the [PeepCode Blog](http://peepcode.com/blog/2010/file-navigation-in-text-editors). The biggest difference is having the ability to filter by directories.
 
 ## Installation
 
