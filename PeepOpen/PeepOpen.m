@@ -49,9 +49,11 @@
 
 - (void)openWithPeepOpen
 {
-    NSURL *peepOpenUrl = [[NSURL alloc] initWithScheme:@"peepopen" host:@"" path:self.projectRoot.path];
-    [[NSWorkspace sharedWorkspace] openURL:peepOpenUrl];
-    [peepOpenUrl release];
+    if (self.projectRoot) {
+        NSURL *peepOpenUrl = [[NSURL alloc] initWithScheme:@"peepopen" host:@"" path:self.projectRoot.path];
+        [[NSWorkspace sharedWorkspace] openURL:peepOpenUrl];
+        [peepOpenUrl release];
+    }
 }
 
 - (NSURL *)projectRoot
