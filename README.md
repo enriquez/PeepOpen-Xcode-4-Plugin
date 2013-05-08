@@ -12,7 +12,7 @@ Nice explanation here: [PeepCode Blog](http://peepcode.com/blog/2010/file-naviga
 * Restart Xcode
 
 ## MIT License
-Copyright (C) 2013 EdgeCase
+Copyright (C) 2013 Mike Enriquez
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
