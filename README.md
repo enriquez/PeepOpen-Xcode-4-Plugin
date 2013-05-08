@@ -8,6 +8,10 @@ Nice explanation on the [PeepCode Blog](http://peepcode.com/blog/2010/file-navig
 
 ## Installation
 
+Available in [Alcatraz](http://mneorr.github.io/Alcatraz/) as `PeepOpen`.
+
+Or you can install manually with the steps below.
+
 * Clone and build the project. It will be installed to `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins`
 * Restart Xcode
 
